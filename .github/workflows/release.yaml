@@ -27,7 +27,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: setup buildpack
-        uses: buildpacks/github-actions/setup-pack@v4.4.0
+        uses: buildpacks/github-actions/setup-pack@v4.9.1
 
       - name: build and push
         run: |
